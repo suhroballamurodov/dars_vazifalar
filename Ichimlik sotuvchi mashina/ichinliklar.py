@@ -14,6 +14,10 @@ class Ichimliklar:
 
 
 
+
+
+
+
     def get_info(self):
         return (f"{self.nomi} ichimligi {self.sotish_narxi} so'm turadi, Sotuv mashinada {self.soni} ta qolgan")
     
