@@ -9,7 +9,6 @@ class Mashinani_toldirish:
         self.soni = soni
     
 
-    
     # def ustunni_oshirish(self, ustun_raqami):
     #     self.ustun_raqami = ustun_raqami
 
