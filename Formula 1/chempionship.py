@@ -1,11 +1,13 @@
 from driver import Driver
 from grandprix import GrandPrix
+from timeform import TimeForm
 
 class Chempionship:
     ''' Dastlab bo'sh list yaratib uning ichiga append yordamida driver va grandprix larni qo'shib ketadi'''
     def __init__(self):
         self.drivers = []
         self.grandPrixList = []
+        self._end_time_list = []
 
 
     def createDriver(self, name):
@@ -16,7 +18,7 @@ class Chempionship:
 
 
     def getDrivers(self):
-        '''Driverlarni ismini qaytarish uchun funksiya'''
+        '''List ichidagi barcha Driverlarni ismini qaytarish uchun funksiya'''
         return self.drivers
 
 
@@ -25,7 +27,7 @@ class Chempionship:
             if driver.getName() == name:
                 return driver
         return None
-
+        
 
     def defineGrandPrix(self, name):
         grandPrix = GrandPrix(name)
@@ -38,3 +40,5 @@ class Chempionship:
                 return grandPrix
         return None
 
+    def set_time(self, gp:GrandPrix, driver:Driver, tuigas_vaqti:TimeForm):
+        time = Time
