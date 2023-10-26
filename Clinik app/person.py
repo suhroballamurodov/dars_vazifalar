@@ -17,5 +17,8 @@ class Person:
     def ssn(self):
         return self._ssn
     
+    def setdoktor(self, doctor):
+        self._doktor = doctor
+
     def __str__(self):
-        return f"Bemor haqida to'liq ma'lumot ismi: {self._ismi}, familiyasi: {self._familiya} SSN raqami: {self._ssn}, "
+        return f" SSN raqami: {self._ssn} "
