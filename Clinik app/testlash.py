@@ -32,7 +32,7 @@ print(clinik.get_doktor(00.41))
 # print(clinik.get_doktor(00.42))
 # print(clinik.get_doktor(00.43))
 
-# print(clinik.assignpatient_to_doktor('ssn001', 00.41))
+print(clinik.assignpatient_to_doktor('ssn001', 00.41))
 
 # print(clinik.idle_doktors([doktor2]))
 
